@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView babyPicture = (ImageView) findViewById(R.id.babyImage);
         babyPicture.setImageResource(R.drawable.cute_baby);
 
+
         MediaPlayer babyLaugh = MediaPlayer.create(MainActivity.this,R.raw.baby_laughing);
         babyLaugh.start();
     }
